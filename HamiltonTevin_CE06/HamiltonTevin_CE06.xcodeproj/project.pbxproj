@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FFF33922332DAAE00A3B0A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFF33912332DAAE00A3B0A7 /* AppDelegate.swift */; };
+		8FFF33972332DAAE00A3B0A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FFF33952332DAAE00A3B0A7 /* Main.storyboard */; };
+		8FFF33992332DAAF00A3B0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FFF33982332DAAF00A3B0A7 /* Assets.xcassets */; };
+		8FFF339C2332DAAF00A3B0A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FFF339A2332DAAF00A3B0A7 /* LaunchScreen.storyboard */; };
+		8FFF33A42332DAEE00A3B0A7 /* ShoppingList.json in Resources */ = {isa = PBXBuildFile; fileRef = 8FFF33A32332DAEE00A3B0A7 /* ShoppingList.json */; };
+		8FFF33A72332DFEE00A3B0A7 /* StoreHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FFF33A62332DFEE00A3B0A7 /* StoreHeaderView.xib */; };
+		8FFF33A92332E13B00A3B0A7 /* CustomStoreHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFF33A82332E13B00A3B0A7 /* CustomStoreHeader.swift */; };
+		8FFF33AB2332E44100A3B0A7 /* StoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFF33AA2332E44100A3B0A7 /* StoreTableViewController.swift */; };
+		8FFF33AD2332E75000A3B0A7 /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFF33AC2332E75000A3B0A7 /* ShoppingList.swift */; };
+		8FFF33AF2332F2C200A3B0A7 /* StoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFF33AE2332F2C200A3B0A7 /* StoreTableViewCell.swift */; };
+		8FFF33D3233536CF00A3B0A7 /* StoreListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFF33D2233536CF00A3B0A7 /* StoreListTableViewController.swift */; };
+		8FFF33D523353D5D00A3B0A7 /* NeededHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FFF33D423353D5D00A3B0A7 /* NeededHeader.xib */; };
+		8FFF33D723353DA900A3B0A7 /* CompleteHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FFF33D623353DA900A3B0A7 /* CompleteHeader.xib */; };
+		8FFF33D92335B25600A3B0A7 /* CustomNeededHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFF33D82335B25600A3B0A7 /* CustomNeededHeader.swift */; };
+		8FFF33DB2335B27E00A3B0A7 /* CustomCompleteHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFF33DA2335B27E00A3B0A7 /* CustomCompleteHeader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8FFF338E2332DAAE00A3B0A7 /* HamiltonTevin_CE06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamiltonTevin_CE06.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FFF33912332DAAE00A3B0A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FFF33962332DAAE00A3B0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FFF33982332DAAF00A3B0A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FFF339B2332DAAF00A3B0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FFF339D2332DAAF00A3B0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FFF33A32332DAEE00A3B0A7 /* ShoppingList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ShoppingList.json; sourceTree = "<group>"; };
+		8FFF33A62332DFEE00A3B0A7 /* StoreHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreHeaderView.xib; sourceTree = "<group>"; };
+		8FFF33A82332E13B00A3B0A7 /* CustomStoreHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStoreHeader.swift; sourceTree = "<group>"; };
+		8FFF33AA2332E44100A3B0A7 /* StoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewController.swift; sourceTree = "<group>"; };
+		8FFF33AC2332E75000A3B0A7 /* ShoppingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList.swift; sourceTree = "<group>"; };
+		8FFF33AE2332F2C200A3B0A7 /* StoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewCell.swift; sourceTree = "<group>"; };
+		8FFF33D2233536CF00A3B0A7 /* StoreListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListTableViewController.swift; sourceTree = "<group>"; };
+		8FFF33D423353D5D00A3B0A7 /* NeededHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NeededHeader.xib; sourceTree = "<group>"; };
+		8FFF33D623353DA900A3B0A7 /* CompleteHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompleteHeader.xib; sourceTree = "<group>"; };
+		8FFF33D82335B25600A3B0A7 /* CustomNeededHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNeededHeader.swift; sourceTree = "<group>"; };
+		8FFF33DA2335B27E00A3B0A7 /* CustomCompleteHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCompleteHeader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FFF338B2332DAAE00A3B0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FFF33852332DAAE00A3B0A7 = {
+			isa = PBXGroup;
+			children = (
+				8FFF33902332DAAE00A3B0A7 /* HamiltonTevin_CE06 */,
+				8FFF338F2332DAAE00A3B0A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FFF338F2332DAAE00A3B0A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FFF338E2332DAAE00A3B0A7 /* HamiltonTevin_CE06.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FFF33902332DAAE00A3B0A7 /* HamiltonTevin_CE06 */ = {
+			isa = PBXGroup;
+			children = (
+				8FFF33A52332DF2C00A3B0A7 /* Headers */,
+				8FFF33912332DAAE00A3B0A7 /* AppDelegate.swift */,
+				8FFF33952332DAAE00A3B0A7 /* Main.storyboard */,
+				8FFF33AA2332E44100A3B0A7 /* StoreTableViewController.swift */,
+				8FFF33D2233536CF00A3B0A7 /* StoreListTableViewController.swift */,
+				8FFF33982332DAAF00A3B0A7 /* Assets.xcassets */,
+				8FFF339A2332DAAF00A3B0A7 /* LaunchScreen.storyboard */,
+				8FFF339D2332DAAF00A3B0A7 /* Info.plist */,
+				8FFF33A32332DAEE00A3B0A7 /* ShoppingList.json */,
+				8FFF33AC2332E75000A3B0A7 /* ShoppingList.swift */,
+				8FFF33AE2332F2C200A3B0A7 /* StoreTableViewCell.swift */,
+			);
+			path = HamiltonTevin_CE06;
+			sourceTree = "<group>";
+		};
+		8FFF33A52332DF2C00A3B0A7 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				8FFF33A62332DFEE00A3B0A7 /* StoreHeaderView.xib */,
+				8FFF33A82332E13B00A3B0A7 /* CustomStoreHeader.swift */,
+				8FFF33D423353D5D00A3B0A7 /* NeededHeader.xib */,
+				8FFF33D82335B25600A3B0A7 /* CustomNeededHeader.swift */,
+				8FFF33D623353DA900A3B0A7 /* CompleteHeader.xib */,
+				8FFF33DA2335B27E00A3B0A7 /* CustomCompleteHeader.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FFF338D2332DAAE00A3B0A7 /* HamiltonTevin_CE06 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FFF33A02332DAAF00A3B0A7 /* Build configuration list for PBXNativeTarget "HamiltonTevin_CE06" */;
+			buildPhases = (
+				8FFF338A2332DAAE00A3B0A7 /* Sources */,
+				8FFF338B2332DAAE00A3B0A7 /* Frameworks */,
+				8FFF338C2332DAAE00A3B0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HamiltonTevin_CE06;
+			productName = HamiltonTevin_CE06;
+			productReference = 8FFF338E2332DAAE00A3B0A7 /* HamiltonTevin_CE06.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FFF33862332DAAE00A3B0A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Tevin Hamilton";
+				TargetAttributes = {
+					8FFF338D2332DAAE00A3B0A7 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 8FFF33892332DAAE00A3B0A7 /* Build configuration list for PBXProject "HamiltonTevin_CE06" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FFF33852332DAAE00A3B0A7;
+			productRefGroup = 8FFF338F2332DAAE00A3B0A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FFF338D2332DAAE00A3B0A7 /* HamiltonTevin_CE06 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FFF338C2332DAAE00A3B0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FFF33D723353DA900A3B0A7 /* CompleteHeader.xib in Resources */,
+				8FFF339C2332DAAF00A3B0A7 /* LaunchScreen.storyboard in Resources */,
+				8FFF33A72332DFEE00A3B0A7 /* StoreHeaderView.xib in Resources */,
+				8FFF33A42332DAEE00A3B0A7 /* ShoppingList.json in Resources */,
+				8FFF33D523353D5D00A3B0A7 /* NeededHeader.xib in Resources */,
+				8FFF33992332DAAF00A3B0A7 /* Assets.xcassets in Resources */,
+				8FFF33972332DAAE00A3B0A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FFF338A2332DAAE00A3B0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FFF33922332DAAE00A3B0A7 /* AppDelegate.swift in Sources */,
+				8FFF33D3233536CF00A3B0A7 /* StoreListTableViewController.swift in Sources */,
+				8FFF33DB2335B27E00A3B0A7 /* CustomCompleteHeader.swift in Sources */,
+				8FFF33D92335B25600A3B0A7 /* CustomNeededHeader.swift in Sources */,
+				8FFF33AD2332E75000A3B0A7 /* ShoppingList.swift in Sources */,
+				8FFF33A92332E13B00A3B0A7 /* CustomStoreHeader.swift in Sources */,
+				8FFF33AB2332E44100A3B0A7 /* StoreTableViewController.swift in Sources */,
+				8FFF33AF2332F2C200A3B0A7 /* StoreTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FFF33952332DAAE00A3B0A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FFF33962332DAAE00A3B0A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FFF339A2332DAAF00A3B0A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FFF339B2332DAAF00A3B0A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FFF339E2332DAAF00A3B0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FFF339F2332DAAF00A3B0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FFF33A12332DAAF00A3B0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HamiltonTevin_CE06/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comTevinHamilton.HamiltonTevin-CE06";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FFF33A22332DAAF00A3B0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HamiltonTevin_CE06/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comTevinHamilton.HamiltonTevin-CE06";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FFF33892332DAAE00A3B0A7 /* Build configuration list for PBXProject "HamiltonTevin_CE06" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FFF339E2332DAAF00A3B0A7 /* Debug */,
+				8FFF339F2332DAAF00A3B0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FFF33A02332DAAF00A3B0A7 /* Build configuration list for PBXNativeTarget "HamiltonTevin_CE06" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FFF33A12332DAAF00A3B0A7 /* Debug */,
+				8FFF33A22332DAAF00A3B0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FFF33862332DAAE00A3B0A7 /* Project object */;
+}
